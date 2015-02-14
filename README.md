@@ -6,8 +6,14 @@ generator-iscinc :bulb:
 
 ## Status :earth_americas:
 
-* :chart_with_upwards_trend: Travis CI: [![Build Status](https://secure.travis-ci.org/iSCInc/generator-iscinc.svg?branch=master)](https://travis-ci.org/iSCInc/generator-iscinc)
+* :sparkles: [serverGem](https://github.com/serverGems) Repository: ![serverGems Repository](https://img.shields.io/badge/iSCInc Repo generator-iscinc-yellow.svg?style=flat)
+* :beers: [serverGem](https://github.com/serverGems) Version: ![serverGems Version](https://img.shields.io/badge/serverGems Version-1.0-blue.svg?style=flat)
+* :chart_with_upwards_trend: [GIT CI](https://github.com/git-ci) Build Status: ![Git CI](http://img.shields.io/badge/Git CI Build Status-passed-green.svg?style=flat)
+* :chart_with_downwards_trend: [Travis CI](https://travis-ci.org/) Build Status: ![Travis CI](http://img.shields.io/travis/iSCInc/generator-iscinc.svg?style=flat)
+* :question: GitHub release: ![GitHub release](https://img.shields.io/github/release/iSCInc/generator-iscinc.svg?style=flat)
 
+[gem]: https://servergems.org/gems/RubyGems
+[travis]: http://travis-ci.org/serverGems/RubyGems
 
 ## Getting started :checkered_flag:
 
