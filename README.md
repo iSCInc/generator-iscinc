@@ -1,9 +1,8 @@
 generator-iscinc
 ====
 
-> iSC Inc. generator for Yeoman generators
-
-> This is the first programmed generator for Yeoman by the iSC Inc. team.
+> iSC Inc. generator for Yeoman generators  
+> This is the first programmed generator for Yeoman by the iSC Inc. team
 
 ## Status
 
