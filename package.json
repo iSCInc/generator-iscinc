@@ -4,8 +4,9 @@
   "description": "A Yeoman generator from iSC Inc..",
   "keywords": ["yeoman-generator"],
   "url" : "http://github.com/iSCInc/generator-iscinc/issues",
-  "license" : "GNU",
   "email" : "github@inc.isc",
+  "license" : "GNU",
+  "main" : "index.php",
   "dependencies": {
     "yeoman-generator": "^0.17.3"
   }
