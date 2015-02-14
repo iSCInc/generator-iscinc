@@ -1,0 +1,9 @@
+{
+  "name": "generator-iscinc",
+  "version": "0.1.0",
+  "description": "A Yeoman generator from iSC Inc..",
+  "keywords": ["yeoman-generator"],
+  "dependencies": {
+    "yeoman-generator": "^0.17.3"
+  }
+}
