@@ -1,8 +1,13 @@
-generator-iscinc :bulb:
-====
+# generator-iscinc :bulb:
 
 > iSC Inc. :office: generator for Yeoman generators  
 > This is the first programmed generator for Yeoman by the iSC Inc. team :couple_with_heart:
+
+* Maintainer: [Suriyaa Kudo](https://github.com/SuriyaaKudoIsc)
+* Owner: [iSC Inc.](http://inc.isc)
+
+![Yo dawg, I heard you like generators?](http://i.imgur.com/2gqiift.jpg)
+
 
 ## Status :earth_americas:
 
