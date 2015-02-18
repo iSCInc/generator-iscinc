@@ -5,6 +5,7 @@
 
 * Maintainer: [Suriyaa Kudo](https://github.com/SuriyaaKudoIsc)
 * Owner: [iSC Inc.](http://inc.isc)
+* Download/Read it on NPM website: [www.npmjs.com/package/generator-iscinc](https://www.npmjs.com/package/generator-iscinc)
 
 ![Yo dawg, I heard you like generators?](http://i.imgur.com/2gqiift.jpg)
 
