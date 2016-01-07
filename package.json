@@ -1,55 +1,49 @@
 {
   "name": "generator-iscinc",
-  "version": "0.1.0",
-  "description": "Generator of iSC Inc. for Yeoman.",
-  "keywords": [
-    "yeoman-generator",
-    "generator",
-    "isc inc"
-  ],
-  "homepage": "https://github.com/iSCInc/generator-iscinc",
-  "bugs": "https://github.com/iSCInc/generator-iscinc/issues",
-  "author": {
-    "name": "Suriyaa Kudo",
-    "email": "suriyaa@inc.isc",
-    "url": "http://bit.ly/Suriyaa"
-  },
-  "main": "app/index.php",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/iSCInc/generator-iscinc.git"
-  },
-  "scripts": {
-    "test": "mocha"
-  },
-  "dependencies": {
-    "chalk": "^0.5.1",
-    "github": "^0.2.1",
-    "lodash": "^2.4.1",
-    "npm-name": "^1.0.1",
-    "superb": "^1.0.0",
-    "underscore.string": "^2.4.0",
-    "yeoman-generator": "^0.20.2",
-    "yosay": "^1.0.0"
-  },
-  "devDependencies": {
-    "mocha": "^2.0.1",
-    "mockery": "^1.4.0"
-  },
-  "peerDependencies": {
-    "yo": ">=1.0.0"
-  },
-  "engines": {
-    "node": ">=0.10.0",
-    "npm": ">=1.2.10"
-  },
-  "licenses": [
-    {
-      "type": "GNU"
-    }
-  ],
+  "version": "1.2.0",
+  "description": "Generate a Yeoman generator for iSC Inc.",
+  "author": "iSC Inc. & Yeoman team",
   "files": [
     "app",
     "subgenerator"
-  ]
+  ],
+  "keywords": [
+    "yeoman-iscinc",
+    "yeoman",
+    "iscinc",
+    "inception",
+    "init",
+    "create"
+  ],
+  "repository": "iSCInc/generator-iscinc",
+  "scripts": {
+    "test": "gulp",
+    "prepublish": "gulp prepublish"
+  },
+  "dependencies": {
+    "chalk": "^1.0.0",
+    "deep-extend": "^0.4.0",
+    "generator-node": "^1.7.0",
+    "inquirer-npm-name": "^1.0.0",
+    "lodash": "^3.6.0",
+    "mkdirp": "^0.5.1",
+    "superb": "^1.0.0",
+    "yeoman-generator": "^0.22.2",
+    "yosay": "^1.0.2"
+  },
+  "devDependencies": {
+    "gulp": "^3.6.0",
+    "gulp-coveralls": "^0.1.0",
+    "gulp-eslint": "^1.0.0",
+    "gulp-exclude-gitignore": "^1.0.0",
+    "gulp-istanbul": "^0.10.3",
+    "gulp-mocha": "^2.0.0",
+    "gulp-nsp": "^2.1.0",
+    "gulp-plumber": "^1.0.0",
+    "mocha": "^2.2.5",
+    "mockery": "^1.4.0",
+    "yeoman-assert": "^2.0.0",
+    "yeoman-test": "^1.0.0"
+  },
+  "license": "MIT"
 }
