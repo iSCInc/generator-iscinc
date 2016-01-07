@@ -1,21 +1,40 @@
 'use strict';
 var yeoman = require('yeoman-generator');
+var chalk = require('chalk');
+var yosay = require('yosay');
 
 module.exports = yeoman.generators.Base.extend({
-  initializing: function () {
-    this.log('You called the <%= generatorName %> subgenerator with the argument ' + this.name + '.');
+  prompting: function () {
+    var done = this.async();
 
-    this.argument('MEDIAWIKI', {
-      required: true,
-      type: String,
-      desc: 'The subgenerator MediaWiki'
-    });
+    // Have Yeoman greet the user.
+    this.log(yosay(
+      'Welcome to the <%- superb %> ' + chalk.red('<%= generatorName %>') + ' generator!'
+    ));
+
+    var prompts = [{
+      type: 'confirm',
+      name: 'someOption',
+      message: 'Would you like to enable this option?',
+      default: true
+    }];
+
+    this.prompt(prompts, function (props) {
+      this.props = props;
+      // To access props later use this.props.someOption;
+
+      done();
+    }.bind(this));
   },
 
   writing: function () {
     this.fs.copy(
-      this.templatePath('somefile.js'),
-      this.destinationPath('somefile.js')
+      this.templatePath('dummyfile.txt'),
+      this.destinationPath('dummyfile.txt')
     );
+  },
+
+  install: function () {
+    this.installDependencies();
   }
 });
