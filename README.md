@@ -30,8 +30,7 @@
 ## Commands
 
 * `yo iscinc` shows a wizard for generating a new generator
-* `yo iscinc:subgenerator MEDIAWIKI` generates a subgenerator with the name MEDIAWIKI :warning:
-
+* `yo iscinc:subgenerator MEDIAWIKI` generates a subgenerator with the name MEDIAWIKI :warning: (yo iscinc:subgenerator <name> generates a subgenerator with the name <name>)
 
 ## What do you get?
 
@@ -51,14 +50,15 @@ The generator-iscinc project directory structure for you :wink::
     ├── .editorconfig
     ├── .gitattributes
     ├── .gitignore
-    ├── .jshintrc
-    ├── CONTRIBUTING.md
-    ├── LICENSE.md
+    ├── .eslintrc
+    ├── .travis.yml
+    ├── .yo-rc.json
     ├── package.json
+    ├── gulpfile.js
     ├── README.md
-    └── test
-        ├── test-creation.js
-        └── test-load.js
+    ├── LICENSE
+    └── test/
+        └── app.js
 
 
 ## Changelog :trophy:
