@@ -60,6 +60,11 @@ The generator-iscinc project directory structure for you :wink::
     └── test/
         └── app.js
 
+## Running tests
+
+Run `npm test` to run our test suite.
+
+These tests will be run automatically in our git repository if you connect Travis CI. We can also track test coverage using Coveralls.
 
 ## Changelog :trophy:
 
