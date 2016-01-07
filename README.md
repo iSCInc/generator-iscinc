@@ -1,4 +1,4 @@
-# generator-iscinc :bulb:
+# Yeoman Generator `generator-iscinc` :bulb: [![Build Status](https://travis-ci.org/iSCInc/generator-iscinc.svg?branch=0.2.0)](https://travis-ci.org/iSCInc/generator-iscinc)
 
 > iSC Inc. :office: generator for Yeoman generators  
 > This is the first programmed generator for Yeoman by the iSC Inc. team :couple_with_heart:
