@@ -1,6 +1,6 @@
 {
   "name": "generator-iscinc",
-  "version": "1.2.0",
+  "version": "0.2.0",
   "description": "Generate a Yeoman generator for iSC Inc.",
   "author": "iSC Inc. & Yeoman team",
   "files": [
