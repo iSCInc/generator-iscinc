@@ -81,8 +81,7 @@ command or commands that cause the issue. :speech_balloon:
 
 ## License
 
-This project is licensed under GNU GPL v2.
-The copyright holders are [**Suriyaa Kudo** :laughing:](http://bit.ly/Suriyaa) and other [**contributors** :thumbsup:](https://github.com/iSCInc/generator-iscinc/graphs/contributors).
+This project is licensed under [MIT License](LICENSE.md). [**Suriyaa Kudo** :laughing:](http://bit.ly/Suriyaa) and other [**contributors** :thumbsup:](https://github.com/iSCInc/generator-iscinc/graphs/contributors).
 
 
 ----
