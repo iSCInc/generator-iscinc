@@ -1,1 +1,1 @@
-See the [contributing docs](#).
+See the [contributing docs](https://open.inc.isc/contribute/).
